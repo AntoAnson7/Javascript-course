@@ -1,0 +1,24 @@
+#increment{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    font-size: 35px;
+    border: none;
+}
+#decrement{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 35px;
+    border: none;
+}
+#save-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: pink;
+    font-size: 35px;
+    border: none;
+}

@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0px;
+    background-color: #090d2b;
+    min-width: 400px;
+}
+
+#input{
+    width: 300px;
+    height: 35px;
+    border: 1px solid lightblue;
+    box-shadow: aqua;
+    outline: none;
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    transition: width 0.05s;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#save{
+    width: 90px;
+    height: 35px;
+    border: none;
+    background-color: #2c4dde;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: width 0.05s;
+    box-shadow: 5px 5px 70px inset cyan ;
+}
+
+#save-tab{
+    width: 90px;
+    height: 35px;
+    border: none;
+    background-color: #2c4dde;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: width 0.05s;
+}
+#delete{
+    width: 90px;
+    height: 35px;
+    border: none;
+    background-color: #090c7d;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: width 0.05s;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    font-family: sans-serif;
+    text-align: start;
+    font-size: 14px;
+    font-style: italic;
+
+}
+button{
+    transition: opacity 0.2s;
+}
+button:hover{
+    opacity: 90%;
+}
+ul,a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+li{
+    list-style: none;
+}
+
+.container{
+    border-radius: 20px;
+}
+
+#save:hover,#save-tab:hover,#delete:hover{
+    width: 100px;
+}
+#input:hover{
+    width: 320px;
+}
